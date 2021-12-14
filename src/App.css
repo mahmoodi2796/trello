@@ -348,5 +348,80 @@ p {
   height: 46px;
 }
 hr {
-  margin-top: 50px;
+  margin-top: 10px;
+}
+
+.columm-1 {
+}
+.columm-2 {
+  padding-left: 90px;
+}
+.columm-3 {
+  padding-left: 90px;
+}
+.columm-4 {
+  padding-left: 90px;
+}
+.columm-5 {
+  padding-left: 90px;
+}
+.footer-top {
+  display: flex;
+  justify-content: center;
+  border-bottom: 1px solid #bbbbbb;
+  padding-bottom: 20px;
+}
+
+.trello {
+  width: 143px;
+  height: 42px;
+  margin-right: 23px;
+}
+#contry {
+  appearance: none;
+  border: 0px;
+  color: rgb(65, 82, 110);
+  display: block;
+  font-family: inherit;
+  font-size: 1.25rem;
+  background-color: rgb(244, 245, 247);
+  background-image: linear-gradient(45deg, transparent 50%, rgb(52, 69, 99) 50%),
+    linear-gradient(135deg, rgb(52, 69, 99) 50%, transparent 50%);
+  background-position: calc(100% - 5px) calc(0.5em + 2px),
+    calc(100%) calc(0.5em + 2px);
+  background-size: 5px 5px, 5px 5px;
+  background-repeat: no-repeat;
+  padding-right: 0.7rem;
+  cursor: pointer;
+  max-width: 80%;
+}
+
+.footer-down {
+  padding-bottom: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.obj-1-footer-down {
+  margin-left: 30px;
+}
+.obj-2-footer-down {
+  margin-left: 30px;
+}
+.obj-3-footer-down {
+  margin-left: 30px;
+}
+.obj-4-footer-down {
+  margin-left: 30px;
+}
+.cyberspace {
+  width: 250px;
+  height: 40px;
+  margin-left: 22px;
+}
+
+.container-2 {
+  background-color: rgb(244, 245, 247);
 }

@@ -15,6 +15,8 @@ import compass from './compass.svg';
 import sproutsocial from './sprout-social.svg';
 import appstore from './appstore.png';
 import googleplay from './googleplay.png';
+import trello from './trello.png';
+import Cyberspace from './Cyberspace.png';
 
 
 import './App.css';
@@ -165,6 +167,8 @@ function App() {
     </div>
   </div>
 </div>
+<div className="container-2">
+
 <div className="app-trello">
   <p className="text-app-trello">Trello also works great on your smaller screen.</p>
 <img className="appstore" src={appstore}/>
@@ -173,15 +177,73 @@ function App() {
 </div>
 
 <hr/>
-
+<div className="footer"> 
 <div className="footer-top">
+  <img className="trello" src={trello}/>
+<table>
+  <tr>
+    <th className="columm-1">GET STARTED</th>
+    <th className="columm-2">MUST-HAVES</th>
+    <th className="columm-3">LEVEL UP</th>
+    <th className="columm-4">COMPANY</th>
+    <th className="columm-5">RESOURCES</th>
+  </tr>
+  <tr>
+    <td className="columm-1">Guide</td>
+    <td className="columm-2">Apps</td>
+    <td className="columm-3">Pricing</td>
+    <td className="columm-4">About</td>
+    <td className="columm-5">Blog</td>
+  </tr>
+  <tr>
+    <td className="columm-1">Templates</td>
+    <td className="columm-2">Automation</td>
+    <td className="columm-3">Standard</td>
+    <td className="columm-4">Jobs</td>
+    <td className="columm-5">Developers</td>
+  </tr>
+  <tr>
+    <td className="columm-1">Team Solutions</td>
+    <td className="columm-2">Integrations</td>
+    <td className="columm-3">Premium</td>
+    <td className="columm-4">Legal</td>
+    <td className="columm-5">Help</td>
+  </tr>
+  <tr>
+    <td className="columm-1">Webinars</td>
+    <td className="columm-2">Power-Ups</td>
+    <td className="columm-3">Enterprise</td>
+  </tr>
+  <tr>
+    <td className="columm-1">Log In</td>
+    <td className="columm-2">Views</td>
+  </tr>
+ 
+</table>
+  
 
+
+</div>
+
+<div className="footer-down">
+  <select name="contry" id="contry">
+  <option value="volvo">english</option>
+  <option value="saab">germany</option>
+  <option value="mercedes">mexico</option>
+  <option value="audi">amrican</option>
+</select>
+<div className="obj-1-footer-down">Cookie Settings</div>
+<div className="obj-2-footer-down">Privacy Policy</div>
+<div className="obj-3-footer-down">Terms</div>
+<div className="obj-4-footer-down">Copyright © 2021 Atlassian</div>
+<img className="cyberspace" src={Cyberspace}/>
+
+</div>
 </div>
 
 
 
-<div className="footer-down bg"></div>
-
+</div>
 
 </div>
 
