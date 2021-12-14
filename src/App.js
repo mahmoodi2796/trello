@@ -175,12 +175,12 @@ function App() {
 <hr/>
 
 <div className="footer-top">
-  
+
 </div>
 
 
 
-<div className="footer-down"></div>
+<div className="footer-down bg"></div>
 
 
 </div>
