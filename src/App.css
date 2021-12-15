@@ -438,6 +438,9 @@ hr {
 .none {
   display: none;
 }
+.image-ebay {
+  display: none;
+}
 @media only screen and (max-width: 1200px) {
   .div-input {
     display: grid;
@@ -496,6 +499,9 @@ hr {
   .image-ebay {
     width: 45%;
   }
+  .image-ebay {
+    display: none;
+  }
 }
 @media only screen and (max-width: 1024px) {
   .img-hero {
@@ -541,6 +547,9 @@ hr {
   }
   .image-ebay {
     width: 45%;
+  }
+  .image-ebay {
+    display: none;
   }
 }
 
@@ -688,6 +697,9 @@ hr {
   }
   .image-ebay {
     width: 45%;
+  }
+  .image-ebay {
+    display: none;
   }
 }
 
@@ -841,6 +853,9 @@ hr {
   .image-ebay {
     width: 45%;
   }
+  .image-ebay {
+    display: none;
+  }
 }
 @media only screen and (max-width: 640px) {
   .br-2 {
@@ -926,5 +941,8 @@ hr {
   }
   .atlass {
     width: 57%;
+  }
+  .image-ebay {
+    display: block;
   }
 }

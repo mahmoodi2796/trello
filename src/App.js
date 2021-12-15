@@ -19,8 +19,6 @@ import trello from './trello.png';
 import Cyberspace from './Cyberspace.png';
 import atlass from './atlass.png';
 import ebay from './ebay.svg';
-
-
 import './App.css';
 
 
@@ -29,16 +27,12 @@ import './App.css';
 
 
 function App() {
-
-
   function MouseOver(event) {
     event.target.style.background = 'rgba(76, 154, 255, 0.1)';
-
   }
   function MouseOut(event){
     event.target.style.background="";
   }
-  
   return (
     <div className="App">
 <div className="header">
@@ -265,5 +259,4 @@ function App() {
 
   );
 }
-
 export default App;
