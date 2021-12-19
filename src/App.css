@@ -736,6 +736,7 @@ hr {
     margin-left: 0px;
     margin-top: 70px;
     border-radius: 6px;
+    margin-top: 36px;
   }
   .Important-text {
     font-size: 40px;
@@ -952,5 +953,8 @@ hr {
   }
   .image-ebay {
     display: block;
+  }
+  .Important-text {
+    margin-top: -13px;
   }
 }
