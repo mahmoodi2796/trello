@@ -1,16 +1,16 @@
 import React from "react";
-import hero from "./hero.png";
-import board from "./board.png";
+import hero from "./static/images/png/hero.png";
+import board from "./static/images/png/board.png";
 import Google from "./Google.js";
 import Squarespace from "./Squarespace.js";
 import Costco from "./Costco.js";
 import Fender_Logo from "./Fender_Logo";
-import cardback from "./card-back.svg";
-import automation from "./automation.webp";
-import powerups from "./power-ups.webp";
-import tag from "./tag.svg";
-import compass from "./compass.svg";
-import "./App.css";
+import cardback from "./static/images/svg/card-back.svg";
+import automation from "./static/images/webp/automation.webp";
+import powerups from "./static/images/webp/power-ups.webp";
+import tag from "./static/images/svg/tag.svg";
+import compass from "./static/images/svg/compass.svg";
+import "./Main.css";
 
 export default function Main() {
   function MouseOver(event) {

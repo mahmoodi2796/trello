@@ -1,6 +1,7 @@
 import React from "react";
-import ebay from "./ebay.svg";
-import sproutsocial from "./sprout-social.svg";
+import ebay from "./static/images/svg/ebay.svg";
+import sproutsocial from "./static/images/svg/sprout-social.svg";
+import "./Maindown.css";
 
 export default function Maindown() {
   return (

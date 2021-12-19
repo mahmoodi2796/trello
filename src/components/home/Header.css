@@ -1,7 +1,17 @@
-.App {
-  background: linear-gradient(0deg, #fff, #eae6ff 100%);
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 13px;
+}
+.img-trello {
+  width: 130px;
+  height: 40px;
 }
 
+.header-right {
+  display: flex;
+  align-items: center;
+}
 .btn {
   padding: 0.25rem 0.5rem;
   font-size: 1.09375rem;
@@ -15,78 +25,16 @@
   border: 1px solid transparent;
   font-size: 1.25rem;
 }
-
-h2 {
-  font-size: 2.25rem;
+.log-in {
+  color: #0065ff !important;
+  cursor: pointer;
 }
 
-#svg {
-  width: 415px;
-  height: 312px;
-}
-.Google {
-  margin-right: 30px;
-}
-.Squarespace {
-  margin-right: 30px;
-}
-.Costco {
-  margin-right: 30px;
-}
-.Fender_Logo {
-  margin-right: 30px;
-}
-.text-main-1 {
-  font-size: 20px;
-}
-#a {
-  width: 100px;
-}
-
-p {
-  font-size: 20px;
-  color: rgb(122, 134, 154);
-}
-
-.sproutsocial {
-  width: 96px;
-  height: 66px;
-}
-
-.app-trello {
-  display: flex;
-  align-items: center;
-  justify-content: end;
-  margin-right: 470px;
-}
-.appstore {
-  width: 158px;
-  height: 46px;
-  margin-right: 25px;
-  margin-left: 30px;
-}
-
-hr {
-  margin-top: 10px;
-}
-
-.columm-2 {
-  padding-left: 90px;
-}
-.columm-3 {
-  padding-left: 90px;
-}
-.columm-4 {
-  padding-left: 90px;
-}
-.columm-5 {
-  padding-left: 90px;
-}
-
-.h-6 {
-  width: 28px !important;
-  transition: margin 0.5s;
-  margin-left: 0px;
+.sign-up {
+  background-color: #0065ff !important;
+  color: #fff !important;
+  cursor: pointer;
+  font-size: 18px;
 }
 
 @media only screen and (max-width: 1200px) {

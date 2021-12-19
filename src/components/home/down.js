@@ -1,10 +1,10 @@
 import React from "react";
-import appstore from "./appstore.png";
-import googleplay from "./googleplay.png";
-import trello from "./trello.png";
-import Cyberspace from "./Cyberspace.png";
-import atlass from "./atlass.png";
-import "./App.css";
+import appstore from "./static/images/png/appstore.png";
+import googleplay from "./static/images/png/googleplay.png";
+import trello from "./static/images/png/trello.png";
+import atlass from "./static/images/png/atlass.png";
+import Cyberspace from "./static/images/png/Cyberspace.png";
+import "./Down.css";
 
 export default function container() {
   return (

@@ -1,94 +1,81 @@
-.App {
-  background: linear-gradient(0deg, #fff, #eae6ff 100%);
-}
-
-.btn {
-  padding: 0.25rem 0.5rem;
-  font-size: 1.09375rem;
-  line-height: 1.5;
-  border-radius: 0.2rem;
-}
-
-.btn {
-  font-weight: 400;
-  text-align: center;
-  border: 1px solid transparent;
-  font-size: 1.25rem;
-}
-
-h2 {
-  font-size: 2.25rem;
-}
-
-#svg {
-  width: 415px;
-  height: 312px;
-}
-.Google {
-  margin-right: 30px;
-}
-.Squarespace {
-  margin-right: 30px;
-}
-.Costco {
-  margin-right: 30px;
-}
-.Fender_Logo {
-  margin-right: 30px;
-}
-.text-main-1 {
-  font-size: 20px;
-}
-#a {
-  width: 100px;
-}
-
-p {
-  font-size: 20px;
-  color: rgb(122, 134, 154);
-}
-
-.sproutsocial {
-  width: 96px;
-  height: 66px;
-}
-
-.app-trello {
+.section-lighte-blue {
+  height: 575px;
+  background: rgb(230, 252, 255);
+  color: rgb(9, 30, 66);
+  scroll-margin-top: 72px;
+  margin-top: 57px;
   display: flex;
+  flex-direction: column;
+  display: flex;
+  justify-content: center;
+}
+.image-ebay {
+  display: none;
+}
+.text-section-lighte-blue {
+  display: flex;
+  justify-content: center;
   align-items: center;
-  justify-content: end;
-  margin-right: 470px;
+  flex-direction: column;
 }
-.appstore {
-  width: 158px;
-  height: 46px;
-  margin-right: 25px;
-  margin-left: 30px;
+.footer-section-lighte-blue {
+  display: flex;
+  justify-content: space-around;
+  width: 1339px;
+  margin-left: 384px;
 }
-
-hr {
-  margin-top: 10px;
+.cont-cart-sign {
+  width: 100vw;
+  height: 360px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-
-.columm-2 {
-  padding-left: 90px;
+.cont-cart-sign-blue {
+  width: 1108px;
+  height: 200px;
+  background: linear-gradient(0deg, rgb(64, 50, 148), rgb(76, 154, 255))
+    no-repeat;
+  color: rgb(255, 255, 255);
+  border-radius: 0.5rem;
 }
-.columm-3 {
-  padding-left: 90px;
+.text-cart-sign-blue {
+  text-align: center;
+  font-size: 23px;
 }
-.columm-4 {
-  padding-left: 90px;
+.cont-input-sign-blue {
+  display: flex;
+  align-items: baseline;
+  justify-content: center;
+  margin: 40px;
 }
-.columm-5 {
-  padding-left: 90px;
+.input-sign-blue {
+  font-size: 1.25rem;
+  padding: 0.4rem 0.75rem 0.5rem;
+  border: 1px solid rgb(223, 225, 230);
+  border-radius: 0.3rem;
+  display: block;
+  margin-bottom: 1rem;
+  margin-right: 1rem;
+  max-width: 376px;
+  transition: all 250ms ease-out 0s;
+  width: 376px;
 }
-
-.h-6 {
-  width: 28px !important;
-  transition: margin 0.5s;
-  margin-left: 0px;
+.button-sign-blue {
+  appearance: none;
+  -webkit-box-align: center;
+  align-items: center;
+  border-radius: 0.3rem;
+  cursor: pointer;
+  display: inline-flex;
+  transition: all 250ms ease-out 0s;
+  background-color: rgb(54, 179, 126);
+  border: 1px solid rgb(54, 179, 126);
+  text-decoration: none;
+  font-size: 1.25rem;
+  padding: 0.4rem 1.5rem 0.5rem;
+  color: rgb(255, 255, 255) !important;
 }
-
 @media only screen and (max-width: 1200px) {
   .div-input {
     display: grid;
