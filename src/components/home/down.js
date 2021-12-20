@@ -30,41 +30,91 @@ export default function container() {
             <img className="trello" src={trello} />
             <table>
               <tr>
-                <th className="columm-1 row">GET STARTED</th>
-                <th className="columm-2 row">MUST-HAVES</th>
-                <th className="columm-3 row">LEVEL UP</th>
-                <th className="columm-4 row">COMPANY</th>
-                <th className="columm-5 row">RESOURCES</th>
+                <th className="columm-1 row">
+                  <a>GET STARTED</a>
+                </th>
+                <th className="columm-2 row">
+                  <a>MUST-HAVES</a>
+                </th>
+                <th className="columm-3 row">
+                  <a>LEVEL UP</a>
+                </th>
+                <th className="columm-4 row">
+                  <a>COMPANY</a>
+                </th>
+                <th className="columm-5 row">
+                  <a>RESOURCES</a>
+                </th>
               </tr>
               <tr>
-                <td className="columm-1 row">Guide</td>
-                <td className="columm-2 row">Apps</td>
-                <td className="columm-3 row">Pricing</td>
-                <td className="columm-4 row">About</td>
-                <td className="columm-5 row">Blog</td>
+                <td className="columm-1 row">
+                  <a>Guide</a>
+                </td>
+                <td className="columm-2 row">
+                  <a>Apps</a>
+                </td>
+                <td className="columm-3 row">
+                  <a>Pricing</a>
+                </td>
+                <td className="columm-4 row">
+                  <a>About</a>
+                </td>
+                <td className="columm-5 row">
+                  <a>Blog</a>
+                </td>
               </tr>
               <tr>
-                <td className="columm-1 row">Templates</td>
-                <td className="columm-2 row">Automation</td>
-                <td className="columm-3 row">Standard</td>
-                <td className="columm-4 row">Jobs</td>
-                <td className="columm-5 row">Developers</td>
+                <td className="columm-1 row">
+                  <a>Templates</a>
+                </td>
+                <td className="columm-2 row">
+                  <a>Automation</a>
+                </td>
+                <td className="columm-3 row">
+                  <a>Standard</a>
+                </td>
+                <td className="columm-4 row">
+                  <a>Jobs</a>
+                </td>
+                <td className="columm-5 row">
+                  <a>Developers</a>
+                </td>
               </tr>
               <tr>
-                <td className="columm-1 row">Team Solutions</td>
-                <td className="columm-2 row">Integrations</td>
-                <td className="columm-3 row">Premium</td>
-                <td className="columm-4 row">Legal</td>
-                <td className="columm-5 row">Help</td>
+                <td className="columm-1 row">
+                  <a>Team Solutions</a>
+                </td>
+                <td className="columm-2 row">
+                  <a>Integrations</a>
+                </td>
+                <td className="columm-3 row">
+                  <a>Premium</a>
+                </td>
+                <td className="columm-4 row">
+                  <a>Legal</a>
+                </td>
+                <td className="columm-5 row">
+                  <a>Help</a>
+                </td>
               </tr>
               <tr>
-                <td className="columm-1 row">Webinars</td>
-                <td className="columm-2 row">Power-Ups</td>
-                <td className="columm-3 row">Enterprise</td>
+                <td className="columm-1 row">
+                  <a>Webinars</a>
+                </td>
+                <td className="columm-2 row">
+                  <a>Power-Ups</a>
+                </td>
+                <td className="columm-3 row">
+                  <a>Enterprise</a>
+                </td>
               </tr>
               <tr>
-                <td className="columm-1 row">Log In</td>
-                <td className="columm-2 row">Views</td>
+                <td className="columm-1 row">
+                  <a>Log In</a>
+                </td>
+                <td className="columm-2 row">
+                  <a>Views</a>
+                </td>
               </tr>
             </table>
             <div className="none">
