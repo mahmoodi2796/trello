@@ -29,7 +29,7 @@ export default function login() {
               type="password"
             />
 
-            <button className="btn-continue">Log in</button>
+            <button className="btn-log-in">Log in</button>
             <div className="or-cart-sign-up">OR</div>
             <button className="sign-google">
               {" "}
