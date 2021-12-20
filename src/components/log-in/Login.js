@@ -17,7 +17,7 @@ export default function login() {
         </div>
         <div className="cont-div">
           <div className="cart-sign-up">
-            <div className="header-cart-sign-up">Sign up for your account</div>
+            <div className="header-cart-sign-up">Sign up for your account</div>{" "}
             <input
               className="input-eamil-cart-sign-up"
               placeholder="Enter email"
@@ -28,16 +28,17 @@ export default function login() {
               placeholder="Enter password"
               type="password"
             />
-
             <button className="btn-log-in">Log in</button>
             <div className="or-cart-sign-up">OR</div>
             <button className="sign-google">
               {" "}
-              <img src={signgoogle} /> Continue with Google
+              <img className="signgoogle" src={signgoogle} /> Continue with
+              Google
             </button>
             <button className="sign-Microsoft">
               {" "}
-              <img src={sigmmirosoft} /> Continue with Microsoft
+              <img className="sigmmirosoft" src={sigmmirosoft} /> Continue with
+              Microsoft
             </button>
             <button className="sign-apple">
               {" "}
