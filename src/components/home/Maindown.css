@@ -76,6 +76,9 @@
   padding: 0.4rem 1.5rem 0.5rem;
   color: rgb(255, 255, 255) !important;
 }
+.cont-main-3 {
+  display: flex;
+}
 @media only screen and (max-width: 1200px) {
   .div-input {
     display: grid;

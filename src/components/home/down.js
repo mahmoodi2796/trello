@@ -1,9 +1,9 @@
 import React from "react";
-import appstore from "./static/images/png/appstore.png";
-import googleplay from "./static/images/png/googleplay.png";
-import trello from "./static/images/png/trello.png";
-import atlass from "./static/images/png/atlass.png";
-import Cyberspace from "./static/images/png/Cyberspace.png";
+import appstore from "../static/images/png/app.png";
+import googleplay from "../static/images/png/googleplay.png";
+import trello from "../static/images/png/trello.png";
+import atlass from "../static/images/png/atl.png";
+import Cyberspace from "../static/images/png/not.png";
 import "./Down.css";
 
 export default function container() {
@@ -15,8 +15,12 @@ export default function container() {
             Trello also works great on your smaller screen.
           </p>
           <div className="img-app-trello">
-            <img className="appstore" src={appstore} />
-            <img className="googleplay" src={googleplay} />
+            <a href="https://apps.apple.com/app/trello-organize-anything/id461504587">
+              <img className="appstore" src={appstore} />
+            </a>
+            <a href="https://play.google.com/store/apps/details?id=com.trello">
+              <img className="googleplay" src={googleplay} />
+            </a>
           </div>
         </div>
 

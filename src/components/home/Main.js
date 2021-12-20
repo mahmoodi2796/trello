@@ -1,15 +1,15 @@
 import React from "react";
-import hero from "./static/images/png/hero.png";
-import board from "./static/images/png/board.png";
+import hero from "../static/images/png/hero.png";
+import board from "../static/images/png/board.png";
 import Google from "./Google.js";
 import Squarespace from "./Squarespace.js";
 import Costco from "./Costco.js";
 import Fender_Logo from "./Fender_Logo";
-import cardback from "./static/images/svg/card-back.svg";
-import automation from "./static/images/webp/automation.webp";
-import powerups from "./static/images/webp/power-ups.webp";
-import tag from "./static/images/svg/tag.svg";
-import compass from "./static/images/svg/compass.svg";
+import cardback from "../static/images/svg/cardback.svg";
+import automation from "../static/images/webp/automation.webp";
+import powerups from "../static/images/webp/power-ups.webp";
+import tag from "../static/images/svg/tag.svg";
+import compass from "../static/images/svg/compass.svg";
 import "./Main.css";
 
 export default function Main() {
@@ -67,28 +67,30 @@ export default function Main() {
           </p>
         </div>
         <div className="flex">
-          <button
-            onMouseOver={MouseOver}
-            onMouseOut={MouseOut}
-            className="btn-start"
-          >
-            start doing
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              id="h-6"
-              class="h-6 w-6"
-              fill="none"
-              viewBox="0 0 24 24"
-              stroke="currentColor"
+          <a href="/about">
+            <button
+              onMouseOver={MouseOver}
+              onMouseOut={MouseOut}
+              className="btn-start"
             >
-              <path
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                stroke-width="2"
-                d="M17 8l4 4m0 0l-4 4m4-4H3"
-              />
-            </svg>
-          </button>
+              start doing
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                id="h-6"
+                class="h-6 w-6"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M17 8l4 4m0 0l-4 4m4-4H3"
+                />
+              </svg>
+            </button>
+          </a>
         </div>
         <div className="cont-down-image">
           <div className="flex">
@@ -803,7 +805,10 @@ export default function Main() {
                 there’s a Trello tailor-made for your
                 <br className="vr-8" /> organization.
               </p>
-              <button class="btn-start-2">Trello pricing</button>
+              <a href="/Btnpricing">
+                {" "}
+                <button class="btn-start-2">Trello pricing</button>
+              </a>
             </div>
           </div>
           <div className="carts-right">
@@ -815,7 +820,9 @@ export default function Main() {
                 <br className="vr-8" /> beyond in Trello. Dive deeper into our
                 <br className="vr-8" /> most popular features.
               </p>
-              <button class="btn-start-2">Tour Trello</button>
+              <a href="/Btntourtrello">
+                <button class="btn-start-2">Tour Trello</button>
+              </a>
             </div>
           </div>
         </div>

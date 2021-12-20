@@ -1,6 +1,6 @@
 import React from "react";
-import ebay from "./static/images/svg/ebay.svg";
-import sproutsocial from "./static/images/svg/sprout-social.svg";
+import ebay from "../static/images/svg/ebay.svg";
+import sproutsocial from "../static/images/svg/sprout-social.svg";
 import "./Maindown.css";
 
 export default function Maindown() {
@@ -18,7 +18,6 @@ export default function Maindown() {
             updates
             <br className="br-7" /> instead.
           </h2>
-
           <div className="footer-section-lighte-blue">
             <div className="footer-section-lighte-blue-left">
               halley ennes-hr manager,sprout social
@@ -30,6 +29,7 @@ export default function Maindown() {
             </div>
           </div>
         </div>
+
         <div className="cont-cart-sign">
           <div className="cont-cart-sign-blue">
             <h3 className="text-cart-sign-blue">
@@ -42,7 +42,10 @@ export default function Maindown() {
                 type="email"
                 placeholder="Email"
               />
-              <button className="button-sign-blue">sign up</button>
+              <a href="/about">
+                {" "}
+                <button className="button-sign-blue">sign up</button>
+              </a>
             </div>
           </div>
         </div>
