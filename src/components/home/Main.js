@@ -820,7 +820,7 @@ export default function Main() {
                 <br className="vr-8" /> beyond in Trello. Dive deeper into our
                 <br className="vr-8" /> most popular features.
               </p>
-              <a href="/Btntourtrello">
+              <a href="/about">
                 <button class="btn-start-2">Tour Trello</button>
               </a>
             </div>

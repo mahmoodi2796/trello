@@ -18,11 +18,13 @@ export default function login() {
         <div className="cont-div">
           <div className="cart-sign-up">
             <div className="header-cart-sign-up">Sign up for your account</div>{" "}
-            <input
-              className="input-eamil-cart-sign-up"
-              placeholder="Enter email"
-              type="email"
-            />
+            <div className="cont-input-eamil-cart-sign-up">
+              <input
+                className="input-eamil-cart-sign-up"
+                placeholder="Enter email"
+                type="email"
+              />
+            </div>
             <input
               className="input-eamil-cart-sign-up"
               placeholder="Enter password"

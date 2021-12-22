@@ -37,6 +37,7 @@
   height: 44px;
   width: 78%;
   margin-top: 20px;
+  padding: 15px;
 }
 
 .btn-log-in {
@@ -150,8 +151,8 @@ select {
   margin-top: 60px;
 }
 .item-a {
-  padding: 0px 10px;
-  margin-top: 10px;
+  color: #8993a4;
+  text-decoration: underline !important;
 }
 hr {
   color: black;
@@ -162,4 +163,9 @@ hr {
   color: #0052cc;
   font-size: 14px;
   margin-top: 13px;
+}
+.cont-input-eamil-cart-sign-up {
+  display: flex;
+  justify-content: center;
+  width: 100%;
 }
