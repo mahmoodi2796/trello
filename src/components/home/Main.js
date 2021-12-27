@@ -45,7 +45,9 @@ export default function Main() {
                   placeholder="Email"
                   type="email"
                 />
-                <button className="button-sign">sign up-it,s free!</button>
+                <a href="/about" className="button-sign">
+                  sign up-it,s free!
+                </a>
               </div>
             </div>
             <div className="main-right">
